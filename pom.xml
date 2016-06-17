@@ -6,14 +6,27 @@
     <version>1.1-SNAPSHOT</version>
     <packaging>jar</packaging>
 
+    <name>${project.groupId}:${project.artifactId}</name>
+    <description>Convert nested Maps into flat Maps and then expand them back!</description>
+    <url>https://github.com/nathanmyles/MapFlattener</url>
+
+    <licenses>
+        <license>
+            <name>The Apache License, Version 2.0</name>
+            <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+        </license>
+    </licenses>
+
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
 
     <scm>
+        <connection>scm:git:git@github.com:nathanmyles/MapFlattener.git</connection>
         <developerConnection>scm:git:git@github.com:nathanmyles/MapFlattener.git</developerConnection>
-      <tag>HEAD</tag>
-  </scm>
+        <url>git@github.com:nathanmyles/MapFlattener.git</url>
+        <tag>HEAD</tag>
+    </scm>
 
     <dependencies>
         <dependency>
